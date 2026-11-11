@@ -18,7 +18,8 @@
       "sections": 8,
       "sheets": 10,
       "title": "Főoldal - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:17.383Z"
+      "keszult": "2026-11-11T11:51:17.383Z",
+      "cssFiles": 3
     },
     "fooldal|asztali": {
       "docHeight": 3421,
@@ -37,7 +38,8 @@
       "sections": 8,
       "sheets": 10,
       "title": "Főoldal - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:17.588Z"
+      "keszult": "2026-11-11T11:51:17.588Z",
+      "cssFiles": 3
     },
     "fooldal|tablet": {
       "docHeight": 5787,
@@ -56,7 +58,8 @@
       "sections": 8,
       "sheets": 10,
       "title": "Főoldal - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:17.788Z"
+      "keszult": "2026-11-11T11:51:17.788Z",
+      "cssFiles": 3
     },
     "hirek|asztali": {
       "docHeight": 2561,
@@ -75,7 +78,8 @@
       "sections": 4,
       "sheets": 29,
       "title": "Hírek - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:28.748Z"
+      "keszult": "2026-11-11T11:51:28.748Z",
+      "cssFiles": 3
     },
     "hirek|tablet": {
       "docHeight": 7213,
@@ -94,7 +98,8 @@
       "sections": 4,
       "sheets": 8,
       "title": "Hírek - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:28.902Z"
+      "keszult": "2026-11-11T11:51:28.902Z",
+      "cssFiles": 3
     },
     "hirek|mobil": {
       "docHeight": 5900,
@@ -113,7 +118,8 @@
       "sections": 4,
       "sheets": 8,
       "title": "Hírek - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:29.024Z"
+      "keszult": "2026-11-11T11:51:29.024Z",
+      "cssFiles": 3
     },
     "esemenyek|mobil": {
       "docHeight": 5400,
@@ -132,7 +138,8 @@
       "sections": 5,
       "sheets": 9,
       "title": "Események - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:37.961Z"
+      "keszult": "2026-11-11T11:51:37.961Z",
+      "cssFiles": 3
     },
     "esemenyek|tablet": {
       "docHeight": 5332,
@@ -151,7 +158,8 @@
       "sections": 5,
       "sheets": 9,
       "title": "Események - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:38.096Z"
+      "keszult": "2026-11-11T11:51:38.096Z",
+      "cssFiles": 3
     },
     "esemenyek|asztali": {
       "docHeight": 2558,
@@ -170,7 +178,8 @@
       "sections": 5,
       "sheets": 9,
       "title": "Események - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:38.477Z"
+      "keszult": "2026-11-11T11:51:38.477Z",
+      "cssFiles": 3
     },
     "podcast|tablet": {
       "docHeight": 6224,
@@ -189,7 +198,8 @@
       "sections": 4,
       "sheets": 9,
       "title": "Podcast - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:48.491Z"
+      "keszult": "2026-11-11T11:51:48.491Z",
+      "cssFiles": 3
     },
     "podcast|mobil": {
       "docHeight": 4208,
@@ -208,7 +218,8 @@
       "sections": 4,
       "sheets": 9,
       "title": "Podcast - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:48.716Z"
+      "keszult": "2026-11-11T11:51:48.716Z",
+      "cssFiles": 3
     },
     "podcast|asztali": {
       "docHeight": 2758,
@@ -227,7 +238,8 @@
       "sections": 4,
       "sheets": 9,
       "title": "Podcast - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:49.049Z"
+      "keszult": "2026-11-11T11:51:49.049Z",
+      "cssFiles": 3
     },
     "koszi-pont|tablet": {
       "docHeight": 5624,
@@ -246,7 +258,8 @@
       "sections": 4,
       "sheets": 7,
       "title": "A KÖSZI Pontról - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:57.708Z"
+      "keszult": "2026-11-11T11:51:57.708Z",
+      "cssFiles": 3
     },
     "koszi-pont|asztali": {
       "docHeight": 3980,
@@ -265,7 +278,8 @@
       "sections": 4,
       "sheets": 8,
       "title": "A KÖSZI Pontról - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:57.929Z"
+      "keszult": "2026-11-11T11:51:57.929Z",
+      "cssFiles": 3
     },
     "koszi-pont|mobil": {
       "docHeight": 9016,
@@ -284,7 +298,8 @@
       "sections": 4,
       "sheets": 7,
       "title": "A KÖSZI Pontról - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:51:58.637Z"
+      "keszult": "2026-11-11T11:51:58.637Z",
+      "cssFiles": 3
     },
     "nyilvanos-adatok|asztali": {
       "docHeight": 2580,
@@ -303,7 +318,8 @@
       "sections": 4,
       "sheets": 27,
       "title": "Nyilvános adatok - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:52:06.936Z"
+      "keszult": "2026-11-11T11:52:06.936Z",
+      "cssFiles": 3
     },
     "nyilvanos-adatok|tablet": {
       "docHeight": 2955,
@@ -322,7 +338,8 @@
       "sections": 4,
       "sheets": 8,
       "title": "Nyilvános adatok - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:52:07.063Z"
+      "keszult": "2026-11-11T11:52:07.063Z",
+      "cssFiles": 3
     },
     "nyilvanos-adatok|mobil": {
       "docHeight": 3170,
@@ -341,7 +358,8 @@
       "sections": 4,
       "sheets": 9,
       "title": "Nyilvános adatok - Origó-Ház Civilház",
-      "keszult": "2026-11-11T11:52:07.327Z"
+      "keszult": "2026-11-11T11:52:07.327Z",
+      "cssFiles": 3
     }
   },
   "ismertHibak": [
@@ -366,5 +384,5 @@
       "message": "Lassú betöltés: 8.2 mp"
     }
   ],
-  "frissitve": "2026-11-11T11:52:07.425Z"
+  "frissitve": "2026-11-11T12:52:49.376Z"
 }
