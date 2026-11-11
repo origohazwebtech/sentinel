@@ -28,6 +28,9 @@ jobs:
     steps:
       - name: Kód letöltése
         uses: actions/checkout@v4
+        with:
+          # Mindig a legfrissebb állapot kell (egy sorban álló futás különben a régit kapná)
+          ref: ${{ github.ref_name }}
 
       - name: Node.js
         uses: actions/setup-node@v4
@@ -80,12 +83,24 @@ jobs:
         run: |
           git config user.name "wp-figyelo"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BRANCH="${GITHUB_REF_NAME}"
           if [ -n "$(git status --porcelain alapallapot)" ]; then
             git add alapallapot
             git commit -m "Alapállapot frissítve"
-            git push
           elif [ $(( $(date +%s) - $(git log -1 --format=%ct) )) -gt 3888000 ]; then
             # 45 napnál régebbi utolsó commit: a GitHub 60 nap után leállítaná az ütemezést
             git commit --allow-empty -m "Életjel: az ütemezett figyelés aktív marad"
-            git push
+          else
+            exit 0
           fi
+          # Ha közben más is írt a tárolóba (pl. egy másik futás), a mi változatunkat ráépítjük
+          for i in 1 2 3; do
+            if git push origin "HEAD:${BRANCH}"; then exit 0; fi
+            if ! git pull --rebase -X theirs origin "${BRANCH}"; then
+              git rebase --abort || true
+              echo "::warning::Az alapállapotot most nem sikerült elmenteni, a következő futás újra próbálja."
+              exit 0
+            fi
+          done
+          echo "::warning::Az alapállapotot többszöri próbálkozásra sem sikerült elmenteni."
+          exit 0
