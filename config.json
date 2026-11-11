@@ -1,0 +1,73 @@
+{
+  "nev": "Origó-Ház Civilház",
+  "alapUrl": "https://origo-haz.hu/civil",
+
+  "oldalak": [
+    { "nev": "fooldal", "utvonal": "/" },
+    { "nev": "hirek", "utvonal": "/hirek-2/" },
+    { "nev": "esemenyek", "utvonal": "/esemenyek/" },
+    { "nev": "podcast", "utvonal": "/podcast/" },
+    { "nev": "koszi-pont", "utvonal": "/a-koszi-pontrol/" },
+    { "nev": "nyilvanos-adatok", "utvonal": "/nyilvanos-adatok/" }
+  ],
+
+  "nezetek": [
+    { "nev": "asztali", "szelesseg": 1440, "magassag": 900 },
+    { "nev": "tablet", "szelesseg": 768, "magassag": 1024, "mobil": true },
+    { "nev": "mobil", "szelesseg": 375, "magassag": 812, "mobil": true }
+  ],
+
+  "elemek": {
+    "fejlec": ".et-l--header, header",
+    "lablec": ".et-l--footer, footer",
+    "szekcio": ".et_pb_section"
+  },
+
+  "elrejtendo": [".cookieadmin_law_container"],
+
+  "maszkolando": [
+    ".et_pb_blog",
+    ".et_pb_posts",
+    ".ajde_evcal_calendar",
+    ".eventon_list_events"
+  ],
+
+  "blokkolt": [
+    "google-analytics.com",
+    "googletagmanager.com",
+    "analytics.google.com",
+    "connect.facebook.net",
+    "facebook.com/tr",
+    "clarity.ms",
+    "hotjar.com"
+  ],
+
+  "hatarertekek": {
+    "kepElteresSzazalek": 3,
+    "kilogasPx": 2,
+    "lassuMs": 8000,
+    "nagyonLassuMs": 20000,
+    "fejlecValtozas": 0.4,
+    "oldalmagassagFigyelmeztetes": 0.5,
+    "oldalmagassagHiba": 1.5
+  },
+
+  "riasztas": {
+    "szintek": ["kritikus", "hiba"],
+    "megerosites": { "kritikus": 1, "hiba": 2 },
+    "ujraRiasztasOra": 12
+  },
+
+  "hibaSzovegek": [
+    "Kritikus hiba (történt|lépett fel) a honlapon",
+    "There has been a critical error on this website",
+    "Error establishing a database connection",
+    "(Fatal error|Parse error|Warning|Notice|Deprecated): .{0,300} on line \\d+",
+    "Briefly unavailable for scheduled maintenance"
+  ],
+
+  "figyelmenKivul": {
+    "url": ["favicon.ico", "ERR_BLOCKED_BY_CLIENT"],
+    "konzol": []
+  }
+}
