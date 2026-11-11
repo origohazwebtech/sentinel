@@ -1,0 +1,370 @@
+{
+  "alapUrl": "https://origo-haz.hu/civil",
+  "oldalak": {
+    "fooldal|mobil": {
+      "docHeight": 5510,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 375,
+        "h": 674,
+        "visible": true
+      },
+      "footer": {
+        "w": 375,
+        "h": 761,
+        "visible": true
+      },
+      "sections": 8,
+      "sheets": 10,
+      "title": "Főoldal - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:17.383Z"
+    },
+    "fooldal|asztali": {
+      "docHeight": 3421,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 1440,
+        "h": 636,
+        "visible": true
+      },
+      "footer": {
+        "w": 1440,
+        "h": 501,
+        "visible": true
+      },
+      "sections": 8,
+      "sheets": 10,
+      "title": "Főoldal - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:17.588Z"
+    },
+    "fooldal|tablet": {
+      "docHeight": 5787,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 768,
+        "h": 696,
+        "visible": true
+      },
+      "footer": {
+        "w": 768,
+        "h": 831,
+        "visible": true
+      },
+      "sections": 8,
+      "sheets": 10,
+      "title": "Főoldal - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:17.788Z"
+    },
+    "hirek|asztali": {
+      "docHeight": 2561,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 1440,
+        "h": 636,
+        "visible": true
+      },
+      "footer": {
+        "w": 1440,
+        "h": 501,
+        "visible": true
+      },
+      "sections": 4,
+      "sheets": 29,
+      "title": "Hírek - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:28.748Z"
+    },
+    "hirek|tablet": {
+      "docHeight": 7213,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 768,
+        "h": 696,
+        "visible": true
+      },
+      "footer": {
+        "w": 768,
+        "h": 1501,
+        "visible": true
+      },
+      "sections": 4,
+      "sheets": 8,
+      "title": "Hírek - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:28.902Z"
+    },
+    "hirek|mobil": {
+      "docHeight": 5900,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 375,
+        "h": 674,
+        "visible": true
+      },
+      "footer": {
+        "w": 375,
+        "h": 761,
+        "visible": true
+      },
+      "sections": 4,
+      "sheets": 8,
+      "title": "Hírek - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:29.024Z"
+    },
+    "esemenyek|mobil": {
+      "docHeight": 5400,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 375,
+        "h": 674,
+        "visible": true
+      },
+      "footer": {
+        "w": 375,
+        "h": 761,
+        "visible": true
+      },
+      "sections": 5,
+      "sheets": 9,
+      "title": "Események - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:37.961Z"
+    },
+    "esemenyek|tablet": {
+      "docHeight": 5332,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 768,
+        "h": 696,
+        "visible": true
+      },
+      "footer": {
+        "w": 768,
+        "h": 831,
+        "visible": true
+      },
+      "sections": 5,
+      "sheets": 9,
+      "title": "Események - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:38.096Z"
+    },
+    "esemenyek|asztali": {
+      "docHeight": 2558,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 1440,
+        "h": 636,
+        "visible": true
+      },
+      "footer": {
+        "w": 1440,
+        "h": 501,
+        "visible": true
+      },
+      "sections": 5,
+      "sheets": 9,
+      "title": "Események - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:38.477Z"
+    },
+    "podcast|tablet": {
+      "docHeight": 6224,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 768,
+        "h": 696,
+        "visible": true
+      },
+      "footer": {
+        "w": 768,
+        "h": 831,
+        "visible": true
+      },
+      "sections": 4,
+      "sheets": 9,
+      "title": "Podcast - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:48.491Z"
+    },
+    "podcast|mobil": {
+      "docHeight": 4208,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 375,
+        "h": 674,
+        "visible": true
+      },
+      "footer": {
+        "w": 375,
+        "h": 761,
+        "visible": true
+      },
+      "sections": 4,
+      "sheets": 9,
+      "title": "Podcast - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:48.716Z"
+    },
+    "podcast|asztali": {
+      "docHeight": 2758,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 1440,
+        "h": 636,
+        "visible": true
+      },
+      "footer": {
+        "w": 1440,
+        "h": 501,
+        "visible": true
+      },
+      "sections": 4,
+      "sheets": 9,
+      "title": "Podcast - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:49.049Z"
+    },
+    "koszi-pont|tablet": {
+      "docHeight": 5624,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 768,
+        "h": 696,
+        "visible": true
+      },
+      "footer": {
+        "w": 768,
+        "h": 831,
+        "visible": true
+      },
+      "sections": 4,
+      "sheets": 7,
+      "title": "A KÖSZI Pontról - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:57.708Z"
+    },
+    "koszi-pont|asztali": {
+      "docHeight": 3980,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 1440,
+        "h": 636,
+        "visible": true
+      },
+      "footer": {
+        "w": 1440,
+        "h": 501,
+        "visible": true
+      },
+      "sections": 4,
+      "sheets": 8,
+      "title": "A KÖSZI Pontról - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:57.929Z"
+    },
+    "koszi-pont|mobil": {
+      "docHeight": 9016,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 375,
+        "h": 268,
+        "visible": true
+      },
+      "footer": {
+        "w": 375,
+        "h": 1282,
+        "visible": true
+      },
+      "sections": 4,
+      "sheets": 7,
+      "title": "A KÖSZI Pontról - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:51:58.637Z"
+    },
+    "nyilvanos-adatok|asztali": {
+      "docHeight": 2580,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 1440,
+        "h": 636,
+        "visible": true
+      },
+      "footer": {
+        "w": 1440,
+        "h": 501,
+        "visible": true
+      },
+      "sections": 4,
+      "sheets": 27,
+      "title": "Nyilvános adatok - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:52:06.936Z"
+    },
+    "nyilvanos-adatok|tablet": {
+      "docHeight": 2955,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 768,
+        "h": 696,
+        "visible": true
+      },
+      "footer": {
+        "w": 768,
+        "h": 831,
+        "visible": true
+      },
+      "sections": 4,
+      "sheets": 8,
+      "title": "Nyilvános adatok - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:52:07.063Z"
+    },
+    "nyilvanos-adatok|mobil": {
+      "docHeight": 3170,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 375,
+        "h": 674,
+        "visible": true
+      },
+      "footer": {
+        "w": 375,
+        "h": 761,
+        "visible": true
+      },
+      "sections": 4,
+      "sheets": 9,
+      "title": "Nyilvános adatok - Origó-Ház Civilház",
+      "keszult": "2026-11-11T11:52:07.327Z"
+    }
+  },
+  "ismertHibak": [
+    {
+      "key": "hirek|asztali|lassu|lassu",
+      "severity": "figyelmeztetes",
+      "message": "Lassú betöltés: 8.7 mp"
+    },
+    {
+      "key": "hirek|mobil|kilogas|a.nextpostslink",
+      "severity": "hiba",
+      "message": "Vízszintesen 73 px-szel kilóg az oldal, ezért oldalra görgethető. Okozója: a.nextpostslink („»”)"
+    },
+    {
+      "key": "esemenyek|mobil|kilogas|a.last",
+      "severity": "hiba",
+      "message": "Vízszintesen 5 px-szel kilóg az oldal, ezért oldalra görgethető. Okozója: a.last („Utolsó »”)"
+    },
+    {
+      "key": "podcast|asztali|lassu|lassu",
+      "severity": "figyelmeztetes",
+      "message": "Lassú betöltés: 8.2 mp"
+    }
+  ],
+  "frissitve": "2026-11-11T11:52:07.425Z"
+}
