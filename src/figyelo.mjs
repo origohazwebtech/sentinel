@@ -204,10 +204,10 @@ function domProbe({ tol, patterns, sel }) {
     const cs = getComputedStyle(e);
     return { w: Math.round(r.width), h: Math.round(r.height), visible: cs.display !== 'none' && cs.visibility !== 'hidden' && r.height > 0 };
   };
-  let sheets = 0;
-  for (const s of document.styleSheets) {
-    try { if (s.cssRules && s.cssRules.length > 0) sheets++; } catch { sheets++; }
-  }
+  // A saját domainről ténylegesen betöltött (nem üres) CSS-fájlok száma; a beágyazott <style> blokkok száma ingadozhat
+  const cssFiles = [...document.styleSheets].filter((s) => {
+    try { return s.href && new URL(s.href).host === location.host && s.cssRules.length > 0; } catch { return false; }
+  }).length;
   const heading = document.querySelector('h1, h2, h3');
   const fingerprint = {
     docHeight: de.scrollHeight,
@@ -216,7 +216,7 @@ function domProbe({ tol, patterns, sel }) {
     header: box(sel.fejlec),
     footer: box(sel.lablec),
     sections: sel.szekcio ? document.querySelectorAll(sel.szekcio).length : null,
-    sheets,
+    cssFiles,
     title: document.title,
   };
 
@@ -387,7 +387,13 @@ async function checkOne(context, cfg, pg, vp, baseline) {
       const t = cfg.hatarertekek;
       if (base.bodyFont && fp.bodyFont !== base.bodyFont) add('hiba', 'stilus', `Megváltozott az alap betűtípus (${base.bodyFont} → ${fp.bodyFont}). Valószínűleg nem töltődött be a CSS.`, 'body-font');
       if (base.headingFont && fp.headingFont && fp.headingFont !== base.headingFont) add('hiba', 'stilus', `Megváltozott a címsorok betűtípusa (${base.headingFont} → ${fp.headingFont})`, 'heading-font');
-      if (base.sheets && fp.sheets < base.sheets) add('hiba', 'stilus', `Kevesebb stíluslap működik, mint korábban (${base.sheets} → ${fp.sheets})`, 'sheets');
+      if (base.cssFiles == null) {
+        // Régebbi alapállapot: a hiányzó adatot most pótoljuk
+        base.cssFiles = fp.cssFiles;
+        baseline._valtozott = true;
+      } else if (fp.cssFiles < base.cssFiles) {
+        add('hiba', 'stilus', `Kevesebb saját CSS-fájl töltődött be, mint korábban (${base.cssFiles} → ${fp.cssFiles})`, 'css-fajlok');
+      }
       if (base.header?.visible) {
         if (!fp.header?.visible) add('hiba', 'fejlec', 'Eltűnt a fejléc', 'eltunt');
         else {
@@ -607,7 +613,9 @@ async function main() {
 
   // Új alapállapot (teljes vagy egyes oldalakra): a most látott hibák "ismertek" lesznek
   const newBaselineIds = new Set(eredmenyek.filter((r) => r.ujAlapallapot).map((r) => r.id));
-  if (newBaselineIds.size) {
+  const baselineDirty = !!baseline._valtozott;
+  delete baseline._valtozott;
+  if (newBaselineIds.size || baselineDirty) {
     const keep = (baseline.ismertHibak || []).filter((k) => !newBaselineIds.has(k.key.split('|').slice(0, 2).join('|')));
     const add = talalatok
       .filter((f) => newBaselineIds.has(`${f.oldal}|${f.nezet}`))
