@@ -1,0 +1,91 @@
+name: WordPress figyelő
+
+on:
+  schedule:
+    # 15 percenként (UTC). Privát tárolóban ritkábban: '0 */2 * * *' (kétóránként)
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      mod:
+        description: 'Mit csináljon?'
+        type: choice
+        options:
+          - ellenorzes
+          - alapallapot-frissites
+        default: ellenorzes
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wp-figyelo
+  cancel-in-progress: false
+
+jobs:
+  figyeles:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Kód letöltése
+        uses: actions/checkout@v4
+
+      - name: Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Függőségek
+        run: npm ci
+
+      - name: Böngésző telepítése
+        run: npx playwright install --with-deps --only-shell chromium
+
+      - name: Riasztási állapot visszatöltése
+        uses: actions/cache/restore@v4
+        with:
+          path: allapot
+          key: allapot-${{ github.run_id }}
+          restore-keys: allapot-
+
+      - name: Ellenőrzés
+        id: check
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          if [ "${{ github.event.inputs.mod }}" = "alapallapot-frissites" ]; then
+            node src/figyelo.mjs --alapallapot
+          else
+            node src/figyelo.mjs
+          fi
+
+      - name: Riasztási állapot mentése
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: allapot
+          key: allapot-${{ github.run_id }}
+
+      - name: Riport feltöltése
+        if: always() && (steps.check.outputs.problemak == 'true' || steps.check.outcome == 'failure' || github.event_name == 'workflow_dispatch')
+        uses: actions/upload-artifact@v4
+        with:
+          name: riport-${{ github.run_number }}
+          path: riport/
+          retention-days: 5
+
+      - name: Alapállapot mentése / ütemezés életben tartása
+        if: always()
+        run: |
+          git config user.name "wp-figyelo"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain alapallapot)" ]; then
+            git add alapallapot
+            git commit -m "Alapállapot frissítve"
+            git push
+          elif [ $(( $(date +%s) - $(git log -1 --format=%ct) )) -gt 3888000 ]; then
+            # 45 napnál régebbi utolsó commit: a GitHub 60 nap után leállítaná az ütemezést
+            git commit --allow-empty -m "Életjel: az ütemezett figyelés aktív marad"
+            git push
+          fi
