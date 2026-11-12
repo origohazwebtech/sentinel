@@ -1,29 +1,29 @@
 {
   "alapUrl": "https://origo-haz.hu/civil",
   "oldalak": {
-    "fooldal|mobil": {
-      "docHeight": 5260,
+    "fooldal|tablet": {
+      "docHeight": 5575,
       "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "headingFont": "\"Source Serif 4\"",
       "header": {
-        "w": 375,
-        "h": 424,
+        "w": 768,
+        "h": 696,
         "visible": true
       },
       "footer": {
-        "w": 375,
-        "h": 761,
+        "w": 768,
+        "h": 831,
         "visible": true
       },
       "sections": 8,
       "cssFiles": 3,
       "title": "Főoldal - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:58:32.298Z"
+      "keszult": "2026-11-12T12:29:49.940Z"
     },
     "fooldal|asztali": {
       "docHeight": 3421,
       "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "headingFont": "\"Source Serif 4\"",
       "header": {
         "w": 1440,
         "h": 636,
@@ -37,53 +37,34 @@
       "sections": 8,
       "cssFiles": 3,
       "title": "Főoldal - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:58:32.454Z"
+      "keszult": "2026-11-12T12:29:50.188Z"
     },
-    "fooldal|tablet": {
-      "docHeight": 5787,
+    "fooldal|mobil": {
+      "docHeight": 5298,
       "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "headingFont": "\"Source Serif 4\"",
       "header": {
-        "w": 768,
-        "h": 696,
+        "w": 375,
+        "h": 674,
         "visible": true
       },
       "footer": {
-        "w": 768,
-        "h": 831,
+        "w": 375,
+        "h": 761,
         "visible": true
       },
       "sections": 8,
       "cssFiles": 3,
       "title": "Főoldal - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:58:32.617Z"
-    },
-    "hirek|asztali": {
-      "docHeight": 2561,
-      "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
-      "header": {
-        "w": 1440,
-        "h": 636,
-        "visible": true
-      },
-      "footer": {
-        "w": 1440,
-        "h": 501,
-        "visible": true
-      },
-      "sections": 4,
-      "cssFiles": 3,
-      "title": "Hírek - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:58:41.685Z"
+      "keszult": "2026-11-12T12:29:50.341Z"
     },
     "hirek|tablet": {
-      "docHeight": 6543,
+      "docHeight": 6413,
       "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "headingFont": "\"Source Serif 4\"",
       "header": {
         "w": 768,
-        "h": 696,
+        "h": 566,
         "visible": true
       },
       "footer": {
@@ -94,15 +75,34 @@
       "sections": 4,
       "cssFiles": 3,
       "title": "Hírek - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:58:41.995Z"
+      "keszult": "2026-11-12T12:30:00.217Z"
+    },
+    "hirek|asztali": {
+      "docHeight": 2431,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 1440,
+        "h": 506,
+        "visible": true
+      },
+      "footer": {
+        "w": 1440,
+        "h": 501,
+        "visible": true
+      },
+      "sections": 4,
+      "cssFiles": 3,
+      "title": "Hírek - Origó-Ház Civilház",
+      "keszult": "2026-11-12T12:30:00.219Z"
     },
     "hirek|mobil": {
-      "docHeight": 5638,
+      "docHeight": 5759,
       "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "headingFont": "\"Source Serif 4\"",
       "header": {
         "w": 375,
-        "h": 424,
+        "h": 545,
         "visible": true
       },
       "footer": {
@@ -113,34 +113,15 @@
       "sections": 4,
       "cssFiles": 3,
       "title": "Hírek - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:58:42.029Z"
-    },
-    "esemenyek|asztali": {
-      "docHeight": 2558,
-      "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
-      "header": {
-        "w": 1440,
-        "h": 636,
-        "visible": true
-      },
-      "footer": {
-        "w": 1440,
-        "h": 501,
-        "visible": true
-      },
-      "sections": 5,
-      "cssFiles": 3,
-      "title": "Események - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:58:50.759Z"
+      "keszult": "2026-11-12T12:30:00.326Z"
     },
     "esemenyek|mobil": {
-      "docHeight": 5137,
+      "docHeight": 5074,
       "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "headingFont": "\"Source Serif 4\"",
       "header": {
         "w": 375,
-        "h": 424,
+        "h": 545,
         "visible": true
       },
       "footer": {
@@ -149,17 +130,36 @@
         "visible": true
       },
       "sections": 5,
+      "cssFiles": 13,
+      "title": "Események - Origó-Ház Civilház",
+      "keszult": "2026-11-12T12:30:16.115Z"
+    },
+    "esemenyek|asztali": {
+      "docHeight": 2331,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 1440,
+        "h": 506,
+        "visible": true
+      },
+      "footer": {
+        "w": 1440,
+        "h": 501,
+        "visible": true
+      },
+      "sections": 5,
       "cssFiles": 3,
       "title": "Események - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:58:51.126Z"
+      "keszult": "2026-11-12T12:30:16.592Z"
     },
     "esemenyek|tablet": {
-      "docHeight": 5332,
+      "docHeight": 5106,
       "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "headingFont": "\"Source Serif 4\"",
       "header": {
         "w": 768,
-        "h": 696,
+        "h": 566,
         "visible": true
       },
       "footer": {
@@ -170,53 +170,53 @@
       "sections": 5,
       "cssFiles": 3,
       "title": "Események - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:58:51.394Z"
-    },
-    "podcast|asztali": {
-      "docHeight": 2758,
-      "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
-      "header": {
-        "w": 1440,
-        "h": 636,
-        "visible": true
-      },
-      "footer": {
-        "w": 1440,
-        "h": 501,
-        "visible": true
-      },
-      "sections": 4,
-      "cssFiles": 3,
-      "title": "Podcast - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:58:59.573Z"
+      "keszult": "2026-11-12T12:30:16.703Z"
     },
     "podcast|mobil": {
-      "docHeight": 3958,
+      "docHeight": 5325,
       "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "headingFont": "\"Source Serif 4\"",
       "header": {
         "w": 375,
-        "h": 424,
+        "h": 545,
         "visible": true
       },
       "footer": {
         "w": 375,
-        "h": 761,
+        "h": 1310,
         "visible": true
       },
       "sections": 4,
-      "cssFiles": 3,
+      "cssFiles": 0,
       "title": "Podcast - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:59:00.187Z"
+      "keszult": "2026-11-12T12:30:34.141Z"
+    },
+    "podcast|asztali": {
+      "docHeight": 3739,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 1440,
+        "h": 506,
+        "visible": true
+      },
+      "footer": {
+        "w": 1440,
+        "h": 1234,
+        "visible": true
+      },
+      "sections": 4,
+      "cssFiles": 0,
+      "title": "Podcast - Origó-Ház Civilház",
+      "keszult": "2026-11-12T12:30:34.366Z"
     },
     "podcast|tablet": {
-      "docHeight": 6224,
+      "docHeight": 6094,
       "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "headingFont": "\"Source Serif 4\"",
       "header": {
         "w": 768,
-        "h": 696,
+        "h": 566,
         "visible": true
       },
       "footer": {
@@ -225,74 +225,74 @@
         "visible": true
       },
       "sections": 4,
-      "cssFiles": 3,
+      "cssFiles": 2,
       "title": "Podcast - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:59:01.354Z"
+      "keszult": "2026-11-12T12:30:34.670Z"
     },
     "koszi-pont|asztali": {
-      "docHeight": 3980,
+      "docHeight": 4564,
       "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "headingFont": "\"Source Serif 4\"",
       "header": {
         "w": 1440,
-        "h": 636,
+        "h": 506,
         "visible": true
       },
       "footer": {
         "w": 1440,
-        "h": 501,
+        "h": 1215,
         "visible": true
       },
       "sections": 4,
-      "cssFiles": 3,
+      "cssFiles": 2,
       "title": "A KÖSZI Pontról - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:59:07.449Z"
-    },
-    "koszi-pont|mobil": {
-      "docHeight": 8652,
-      "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
-      "header": {
-        "w": 375,
-        "h": 424,
-        "visible": true
-      },
-      "footer": {
-        "w": 375,
-        "h": 761,
-        "visible": true
-      },
-      "sections": 4,
-      "cssFiles": 3,
-      "title": "A KÖSZI Pontról - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:59:08.830Z"
+      "keszult": "2026-11-12T12:30:45.595Z"
     },
     "koszi-pont|tablet": {
-      "docHeight": 5624,
+      "docHeight": 6285,
       "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "headingFont": "\"Source Serif 4\"",
       "header": {
         "w": 768,
-        "h": 696,
+        "h": 687,
         "visible": true
       },
       "footer": {
         "w": 768,
-        "h": 831,
+        "h": 1501,
         "visible": true
       },
       "sections": 4,
-      "cssFiles": 3,
+      "cssFiles": 2,
       "title": "A KÖSZI Pontról - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:59:09.097Z"
+      "keszult": "2026-11-12T12:30:45.763Z"
+    },
+    "koszi-pont|mobil": {
+      "docHeight": 8773,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 375,
+        "h": 545,
+        "visible": true
+      },
+      "footer": {
+        "w": 375,
+        "h": 761,
+        "visible": true
+      },
+      "sections": 4,
+      "cssFiles": 2,
+      "title": "A KÖSZI Pontról - Origó-Ház Civilház",
+      "keszult": "2026-11-12T12:30:46.270Z"
     },
     "nyilvanos-adatok|asztali": {
-      "docHeight": 2580,
+      "docHeight": 2450,
       "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "headingFont": "\"Source Serif 4\"",
       "header": {
         "w": 1440,
-        "h": 636,
+        "h": 506,
         "visible": true
       },
       "footer": {
@@ -301,17 +301,36 @@
         "visible": true
       },
       "sections": 4,
-      "cssFiles": 3,
+      "cssFiles": 10,
       "title": "Nyilvános adatok - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:59:14.905Z"
+      "keszult": "2026-11-12T12:30:55.441Z"
+    },
+    "nyilvanos-adatok|tablet": {
+      "docHeight": 2825,
+      "bodyFont": "\"Source Sans 3\"",
+      "headingFont": "\"Source Serif 4\"",
+      "header": {
+        "w": 768,
+        "h": 566,
+        "visible": true
+      },
+      "footer": {
+        "w": 768,
+        "h": 831,
+        "visible": true
+      },
+      "sections": 4,
+      "cssFiles": 2,
+      "title": "Nyilvános adatok - Origó-Ház Civilház",
+      "keszult": "2026-11-12T12:30:55.597Z"
     },
     "nyilvanos-adatok|mobil": {
-      "docHeight": 2920,
+      "docHeight": 3041,
       "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "headingFont": "\"Source Serif 4\"",
       "header": {
         "w": 375,
-        "h": 424,
+        "h": 545,
         "visible": true
       },
       "footer": {
@@ -322,28 +341,275 @@
       "sections": 4,
       "cssFiles": 3,
       "title": "Nyilvános adatok - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:59:16.295Z"
-    },
-    "nyilvanos-adatok|tablet": {
-      "docHeight": 2955,
-      "bodyFont": "\"Source Sans 3\"",
-      "headingFont": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
-      "header": {
-        "w": 768,
-        "h": 696,
-        "visible": true
-      },
-      "footer": {
-        "w": 768,
-        "h": 831,
-        "visible": true
-      },
-      "sections": 4,
-      "cssFiles": 3,
-      "title": "Nyilvános adatok - Origó-Ház Civilház",
-      "keszult": "2026-11-11T12:59:16.894Z"
+      "keszult": "2026-11-12T12:30:56.102Z"
     }
   },
-  "ismertHibak": [],
-  "frissitve": "2026-11-11T12:59:16.991Z"
+  "ismertHibak": [
+    {
+      "key": "fooldal|tablet|lassu|lassu",
+      "severity": "figyelmeztetes",
+      "message": "Lassú betöltés: 9.5 mp"
+    },
+    {
+      "key": "fooldal|asztali|lassu|lassu",
+      "severity": "figyelmeztetes",
+      "message": "Lassú betöltés: 9.8 mp"
+    },
+    {
+      "key": "esemenyek|asztali|lassu|lassu",
+      "severity": "figyelmeztetes",
+      "message": "Lassú betöltés: 13.1 mp"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-content/plugins/altcha-#-#Y#fkQJj#vssPx/public/altcha.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/altcha-2-07Y37fkQJj4vssPx/public/altcha.css"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/bbpress/templates/default/css/bbpress.min.css"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-content/plugins/wp-pagenavi/css/wp-pagenavi.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/wp-pagenavi/css/wp-pagenavi.css"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-content/plugins/cookieadmin/assets/css/consent.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/cookieadmin/assets/css/consent.css"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-content/plugins/#d-flipbook-dflip-lite/assets/css/dflip.min.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/3d-flipbook-dflip-lite/assets/css/dflip.min.css"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-content/plugins/eventon-lite/assets/css/eventon_styles.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/eventon-lite/assets/css/eventon_styles.css"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-content/plugins/eventon-lite/assets/fonts/all.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/eventon-lite/assets/fonts/all.css"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-content/plugins/eventon-lite/assets/css/eventon_dynamic_styles.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/eventon-lite/assets/css/eventon_dynamic_styles.css"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-content/et-cache/#/et-divi-dynamic-tb-#-tb-#-#.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/et-cache/3404/et-divi-dynamic-tb-970688-tb-2630-3404.css"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-includes/js/mediaelement/wp-mediaelement.min.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-includes/js/mediaelement/wp-mediaelement.min.css"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-content/plugins/translatepress-multilingual/assets/css/trp-language-switcher-v#.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/translatepress-multilingual/assets/css/trp-language-switcher-v2.css"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-content/uploads/#/#/header_kep_mobil#.webp",
+      "severity": "hiba",
+      "message": "Kép nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/uploads/2026/11/header_kep_mobil2.webp"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-content/plugins/fb-live-embed/assets/fb-live.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/fb-live-embed/assets/fb-live.css"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-includes/js/jquery/jquery.min.js",
+      "severity": "hiba",
+      "message": "JavaScript-fájl nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-includes/js/jquery/jquery.min.js"
+    },
+    {
+      "key": "podcast|mobil|eroforras|https://origo-haz.hu/civil/wp-content/litespeed/js/#af#cace#e#fd#f#df#c#d#.js",
+      "severity": "hiba",
+      "message": "JavaScript-fájl nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/litespeed/js/934af49cace4e0fd1718f43df9c234d6.js"
+    },
+    {
+      "key": "podcast|mobil|js-hiba|jQuery is not defined",
+      "severity": "hiba",
+      "message": "JavaScript-hiba: jQuery is not defined"
+    },
+    {
+      "key": "podcast|mobil|js-hiba|Cannot read properties of undefined (reading 'extend')",
+      "severity": "hiba",
+      "message": "JavaScript-hiba: Cannot read properties of undefined (reading 'extend')"
+    },
+    {
+      "key": "podcast|mobil|js-hiba|Cannot read properties of undefined (reading 'fn')",
+      "severity": "hiba",
+      "message": "JavaScript-hiba: Cannot read properties of undefined (reading 'fn')"
+    },
+    {
+      "key": "podcast|mobil|js-hiba|a(...) is not a function",
+      "severity": "hiba",
+      "message": "JavaScript-hiba: a(...) is not a function"
+    },
+    {
+      "key": "podcast|mobil|js-hiba|s(...) is not a function",
+      "severity": "hiba",
+      "message": "JavaScript-hiba: s(...) is not a function"
+    },
+    {
+      "key": "podcast|mobil|js-hiba|i(...) is not a function",
+      "severity": "hiba",
+      "message": "JavaScript-hiba: i(...) is not a function"
+    },
+    {
+      "key": "podcast|mobil|lassu|lassu",
+      "severity": "figyelmeztetes",
+      "message": "Lassú betöltés: 9.7 mp"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-content/plugins/altcha-#-#Y#fkQJj#vssPx/public/altcha.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/altcha-2-07Y37fkQJj4vssPx/public/altcha.css"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/bbpress/templates/default/css/bbpress.min.css"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-content/plugins/wp-pagenavi/css/wp-pagenavi.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/wp-pagenavi/css/wp-pagenavi.css"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-content/plugins/cookieadmin/assets/css/consent.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/cookieadmin/assets/css/consent.css"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-content/plugins/#d-flipbook-dflip-lite/assets/css/dflip.min.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/3d-flipbook-dflip-lite/assets/css/dflip.min.css"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-content/plugins/eventon-lite/assets/css/eventon_styles.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/eventon-lite/assets/css/eventon_styles.css"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-content/plugins/eventon-lite/assets/fonts/all.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/eventon-lite/assets/fonts/all.css"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-content/plugins/eventon-lite/assets/css/eventon_dynamic_styles.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/eventon-lite/assets/css/eventon_dynamic_styles.css"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-content/et-cache/#/et-divi-dynamic-tb-#-tb-#-#.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/et-cache/3404/et-divi-dynamic-tb-970688-tb-2630-3404.css"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-includes/js/mediaelement/wp-mediaelement.min.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-includes/js/mediaelement/wp-mediaelement.min.css"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-content/plugins/translatepress-multilingual/assets/css/trp-language-switcher-v#.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/translatepress-multilingual/assets/css/trp-language-switcher-v2.css"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-content/uploads/#/#/header_kep.webp",
+      "severity": "hiba",
+      "message": "Kép nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/uploads/2026/11/header_kep.webp"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-content/plugins/fb-live-embed/assets/fb-live.css",
+      "severity": "kritikus",
+      "message": "Stíluslap (CSS) nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/plugins/fb-live-embed/assets/fb-live.css"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-includes/js/jquery/jquery.min.js",
+      "severity": "hiba",
+      "message": "JavaScript-fájl nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-includes/js/jquery/jquery.min.js"
+    },
+    {
+      "key": "podcast|asztali|eroforras|https://origo-haz.hu/civil/wp-content/litespeed/js/#af#cace#e#fd#f#df#c#d#.js",
+      "severity": "hiba",
+      "message": "JavaScript-fájl nem töltődött be (net::ERR_HTTP2_PROTOCOL_ERROR): /wp-content/litespeed/js/934af49cace4e0fd1718f43df9c234d6.js"
+    },
+    {
+      "key": "podcast|asztali|js-hiba|jQuery is not defined",
+      "severity": "hiba",
+      "message": "JavaScript-hiba: jQuery is not defined"
+    },
+    {
+      "key": "podcast|asztali|js-hiba|Cannot read properties of undefined (reading 'extend')",
+      "severity": "hiba",
+      "message": "JavaScript-hiba: Cannot read properties of undefined (reading 'extend')"
+    },
+    {
+      "key": "podcast|asztali|js-hiba|Cannot read properties of undefined (reading 'fn')",
+      "severity": "hiba",
+      "message": "JavaScript-hiba: Cannot read properties of undefined (reading 'fn')"
+    },
+    {
+      "key": "podcast|asztali|js-hiba|a(...) is not a function",
+      "severity": "hiba",
+      "message": "JavaScript-hiba: a(...) is not a function"
+    },
+    {
+      "key": "podcast|asztali|js-hiba|s(...) is not a function",
+      "severity": "hiba",
+      "message": "JavaScript-hiba: s(...) is not a function"
+    },
+    {
+      "key": "podcast|asztali|js-hiba|i(...) is not a function",
+      "severity": "hiba",
+      "message": "JavaScript-hiba: i(...) is not a function"
+    },
+    {
+      "key": "podcast|asztali|lassu|lassu",
+      "severity": "figyelmeztetes",
+      "message": "Lassú betöltés: 15.1 mp"
+    },
+    {
+      "key": "podcast|tablet|lassu|lassu",
+      "severity": "figyelmeztetes",
+      "message": "Lassú betöltés: 15.0 mp"
+    },
+    {
+      "key": "koszi-pont|asztali|lassu|lassu",
+      "severity": "figyelmeztetes",
+      "message": "Lassú betöltés: 8.4 mp"
+    },
+    {
+      "key": "koszi-pont|tablet|lassu|lassu",
+      "severity": "figyelmeztetes",
+      "message": "Lassú betöltés: 8.3 mp"
+    },
+    {
+      "key": "koszi-pont|mobil|lassu|lassu",
+      "severity": "figyelmeztetes",
+      "message": "Lassú betöltés: 8.4 mp"
+    }
+  ],
+  "frissitve": "2026-11-12T12:30:56.203Z"
 }
